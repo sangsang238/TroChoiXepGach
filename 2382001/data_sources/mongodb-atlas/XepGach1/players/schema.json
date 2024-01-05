@@ -51,13 +51,10 @@
     "required": [
         "_id",
         "color",
-        "levels",
         "password",
-        "playMoments",
         "playSession",
         "playTime",
         "playerName",
-        "scores",
         "username"
     ],
     "title": "player"

@@ -1,0 +1,64 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "color": {
+            "bsonType": "int"
+        },
+        "levels": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "appreciate": {
+                        "bsonType": "int"
+                    },
+                    "levelnumber": {
+                        "bsonType": "int"
+                    }
+                }
+            }
+        },
+        "password": {
+            "bsonType": "string"
+        },
+        "playMoments": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "playSession": {
+            "bsonType": "int"
+        },
+        "playTime": {
+            "bsonType": "int"
+        },
+        "playerName": {
+            "bsonType": "string"
+        },
+        "scores": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "int"
+            }
+        },
+        "username": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "_id",
+        "color",
+        "levels",
+        "password",
+        "playMoments",
+        "playSession",
+        "playTime",
+        "playerName",
+        "scores",
+        "username"
+    ],
+    "title": "player"
+}
